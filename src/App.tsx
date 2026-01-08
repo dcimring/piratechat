@@ -3,7 +3,7 @@ import { useQuery, useMutation } from "convex/react";
 import { api } from "../convex/_generated/api";
 import { MessageBubble } from "./components/MessageBubble";
 import { TypingIndicator } from "./components/TypingIndicator";
-import { Compass, Send, Map as MapIcon, X } from "lucide-react";
+import { Compass, Send, Map as MapIcon } from "lucide-react";
 
 function App() {
   const messages = useQuery(api.messages.list);
