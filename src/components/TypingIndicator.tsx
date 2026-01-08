@@ -23,7 +23,7 @@ export function TypingIndicator() {
               <Feather className="w-5 h-5 text-pirate-ink opacity-70" />
             </motion.div>
 
-            <span className="text-pirate-ink font-map italic text-lg md:text-2xl opacity-80 whitespace-nowrap">The Captain scribbles...</span>
+            <span className="text-pirate-ink font-map italic text-lg md:text-xl opacity-80 whitespace-nowrap">The Captain scribbles...</span>
             
             {/* Ink Dots */}
             <div className="flex space-x-1 pt-2">

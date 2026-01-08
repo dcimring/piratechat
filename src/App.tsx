@@ -113,17 +113,17 @@ function App() {
                 value={newMessage}
                 onChange={(e) => setNewMessage(e.target.value)}
                 placeholder="Scribble yer message here..."
-                className="w-full p-6 md:p-8 pl-8 pr-20 bg-[#f4e4bc] text-[#2c1810] font-map text-2xl md:text-4xl rounded-sm border-none focus:ring-0 shadow-[inset_0_4px_20px_rgba(0,0,0,0.3)] placeholder:text-[#2c1810]/30 clip-torn-2 transform transition-transform focus:scale-[1.01]"
+                className="w-full p-4 pl-6 pr-14 bg-[#f4e4bc] text-[#2c1810] font-map text-lg md:text-2xl rounded-sm border-none focus:ring-0 shadow-[inset_0_2px_10px_rgba(0,0,0,0.2)] placeholder:text-[#2c1810]/40 clip-torn-2 transform transition-transform focus:scale-[1.01]"
               />
-              <div className="absolute right-0 bottom-0 top-0 w-24 bg-gradient-to-l from-[#e4d5b7] to-transparent pointer-events-none" />
+              <div className="absolute right-0 bottom-0 top-0 w-16 bg-gradient-to-l from-[#e4d5b7] to-transparent pointer-events-none" />
             </div>
 
             <button
               type="submit"
               disabled={!newMessage.trim()}
-              className="h-20 w-20 md:h-24 md:w-24 bg-pirate-blood hover:bg-[#6a0000] text-[#f4e4bc] rounded-full flex items-center justify-center transition-all duration-200 shadow-xl hover:shadow-red-900/50 border-4 border-[#2c1810] hover:rotate-12 hover:scale-110 disabled:opacity-50 disabled:hover:scale-100 disabled:hover:rotate-0"
+              className="h-14 w-14 md:h-16 md:w-16 bg-pirate-blood hover:bg-[#6a0000] text-[#f4e4bc] rounded-full flex items-center justify-center transition-all duration-200 shadow-lg hover:shadow-red-900/50 border-4 border-[#2c1810] hover:rotate-12 hover:scale-110 disabled:opacity-50 disabled:hover:scale-100 disabled:hover:rotate-0"
             >
-              <Send className="w-8 h-8 md:w-10 md:h-10 ml-1" />
+              <Send className="w-6 h-6 md:w-8 md:h-8 ml-1" />
             </button>
           </form>
         </footer>

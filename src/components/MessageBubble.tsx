@@ -64,7 +64,7 @@ export function MessageBubble({ body, author, timestamp }: MessageBubbleProps) {
 
           {/* Message Text */}
           <p className={cn(
-            "text-2xl md:text-4xl leading-relaxed drop-shadow-sm",
+            "text-lg md:text-2xl leading-relaxed drop-shadow-sm",
             isPirate ? "font-pirate" : "font-map"
           )}>
             {body}
